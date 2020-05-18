@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!-- Template by Quackit.com -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>EECS 351 Project</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!--------------------------------------------------------------- Navigation Bar ---------------------------------------------------------------->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class>
+                        <a class="navbar-brand" href="index.html">
+                            <span class="glyphicon glyphicon-signal"></span> 
+                        EECS 351
+                        </a>
+                    </li>
+                    <li class>
+                        <a href="image_pipeline.html">Image Pipeline</a>
+                    </li>
+                    <li class="">
+                        <a href="bfs_algorithm.html">BFS Algorithm</a>
+                    </li>
+                    <li class>
+                        <a href="watershed.html">Watershed Algorithm</a>
+                    </li>
+                    <li class>
+                        <a href="a_star.html">A* Search Algorithm</a>
+                    </li>
+                    <li class>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class>
+                        <a href="progress_report.html">Progress Report</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!---------------------------------------------------------------------------------------------------------------------------------------------->
+
+    
+    
+    <!--------------------------------------------------------------- Title Heading ---------------------------------------------------------------->
+    <div class="container">
+        <div class="row centered">
+            <!--<div class = "col=lg-12">-->
+                <img class="img-responsive title-image" src="pictures/maze_background.jpg" alt="">
+                <div class="title-text" style="top:300px;">The Maze Solver
+                    <br>
+                    <h3>by David Kucher, Nathan Peterson, and Lexi Roberts</h3>
+                </div>
+            <!--</div>-->
+        </div>
+        <br>
+    </div>
+    <!---------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+    <!-------------------------------------------------------------- Intro Paragraph --------------------------------------------------------------->
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="middle-blurb">
+        <div class="container">
+            <p style="font-size:130%;">The goal of this project is to <b>allow users to take a picture of a 2-dimensional maze and utilize our program to solve it.</b>  Our "maze solver" application automatically crops a picture of a maze to the region of interest, compresses the maze as much as possible, then uses an algorithm to find the critical path for the maze. As the maze is being solved, we can create a GIF to see how the algorithm searches for a shortest path, and return a picture of the maze with the path superimposed. Our webpage explains our "maze solver" in greater detail and introduces the effects of various algorithms on the process of solving mazes with our program. <br>Please use the navigation bar above to further see what we worked on.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    
+    <div class="container">
+        <div class="black-box">
+            <p> All the code for this project and a sample script can be found at <br><a href="https://gitlab.eecs.umich.edu/dkucher/eecs351-final-project"> eecs3510final-project </a> </p>
+        </div>
+    
+        <div class="row centered">
+            <div class="col-md-6" style="text-align:center">
+                <h3> Input Maze Image </h3>
+            </div>
+            <div class ="col-md-6" style="text-align:center">
+                <h3> Solved Maze </h3>
+            </div>
+        </div>
+    
+        <div class="row centered">
+            <div class="col-md-6">
+                <img class="img-responsive center-block" src="pictures/maze3.jpg" alt="Original Maze">
+            </div>
+            <div class ="col-md-6">
+                <img class="img-responsive center-block" src="pictures/bfsLineExpansion.png" alt="" height="300" width="300">
+            </div>
+        </div>
+    </div>
+     <!---------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+    <!------------------------------------------------------------------ Page Footer ------------------------------------------------------------------->
+    <footer>
+        <div class="copyright">
+            <div class="container">
+                <br>
+                <p>Copyright &copy;  |  Team 7, EECS 351  |  April 23, 2019</p>
+            </div>
+        </div>
+    </footer>
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- Pagination -->
+        <!--<div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>-->
+        <!-- /.row -->
+    <!-- /.container -->
+
+
+    <!--<p><a class="btn btn-primary" href="#">More Stuff</a></p>-->
+
+    <!--<img class="img-circle" src="http://lorempixel.com/100/100/people/2" alt="" width="100" height="100">-->
+
+    <!--<p>So far, we have successfully been able to autocrop mazes via edge detection, investigated and started to implement the Breadth First Search (BFS) solving algorithm, and have also investigated and started to implement the Watershed solving algorithm.  Throughout this process so far, we have run into a couple of challenges.  The first challenge is figuring out how to tailor our implementation to work with irregular mazes, such as circular mazes or hand-drawn mazes.  Another challenge is figuring out how to represent mazes in matrix form.  Within the next few weeks, we plan on continuing our research and strengthening our algorithms in order to overcome these hurdles. </p>-->
+
+
+    <!-- Pictures
+        <img class="img-responsive" src="http://lorempixel.com/700/400/nature/2" alt="">
+        <img class="img-responsive" src="http://lorempixel.com/700/400/nature/1" alt="">
+        <img class="img-responsive" src="http://lorempixel.com/700/400/nature/3" alt="">
+        <img class="img-responsive" src="http://lorempixel.com/700/400/nature/4" alt="">
+        <img class="img-responsive" src="http://lorempixel.com/700/400/nature/5" alt="">
+        <img class="img-responsive" src="http://lorempixel.com/700/400/nature/6" alt="">
+    -->
