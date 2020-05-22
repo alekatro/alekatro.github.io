@@ -37,7 +37,7 @@
 			Fallback for browsers that don't support pseudo elements.
 		*/
 
-		background: url('images/city.jpg');
+		background: url('images/gray_wood.jpg');
 	}
 
 		body:before
@@ -56,7 +56,7 @@
 				set background-size to "cover".
 			*/
 
-			background: url('images/city.jpg');
+			background: url('images/gray_wood.jpg');
 			background-size: 100% 100%;
 		}
 
@@ -443,6 +443,7 @@
 	.icon-down:before			{ content: '\E03e'; }
 	.icon-file:before			{ content: '\E048'; }
 	.icon-folder:before			{ content: '\E04c'; }
+	.icon-home:before			{ content: '\E072'; }
 	.icon-info:before			{ content: '\E075'; }
 	.icon-login:before			{ content: '\E087'; }
 	.icon-mail:before			{ content: '\E08a'; }
@@ -497,13 +498,13 @@
 		position: relative;
 	}
 
-	/* Me */
+	/* Home */
 	
-		#me
+		#home
 		{
 		}
 		
-			#me .pic
+			#home .pic
 			{
 				position: relative;
 				display: block;

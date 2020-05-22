@@ -224,15 +224,15 @@
 		width: 45em;
 	}
 	
-	/* Me */
+	/* Hone */
 	
-		#me
+		#home
 		{
 			padding: 0;
 			height: 20em;
 		}
 		
-			#me .pic
+			#home .pic
 			{
 				display: block;
 				position: absolute;
@@ -242,14 +242,14 @@
 				text-decoration: none;
 			}
 			
-				#me .pic img
+				#home .pic img
 				{
 					position: relative;
 					display: block;
 					height: 100%;
 				}
 			
-				#me .pic .arrow
+				#home .pic .arrow
 				{
 					display: block;
 					position: absolute;
@@ -272,24 +272,24 @@
 					transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 				}
 
-					#me .pic .arrow:before
+					#home .pic .arrow:before
 					{
 						padding-right: 0;
 					}
 			
-					#me .pic .arrow span
+					#home .pic .arrow span
 					{
 						display: block;
 						text-indent: -9999em;
 					}
 				
-					#me .pic:hover .arrow
+					#home .pic:hover .arrow
 					{
 						width: 3em;
 						padding-right: 0.25em;
 					}
 			
-			#me header
+			#home header
 			{
 				position: absolute;
 				left: 0;
@@ -299,7 +299,7 @@
 				margin-left: 2.5em;
 			}
 			
-			#me h1
+			#home h1
 			{
 				position: absolute;
 				left: 0;
@@ -307,7 +307,7 @@
 				margin: 0;
 			}
 			
-			#me .byline
+			#home .byline
 			{
 				position: absolute;
 				left: 0;
