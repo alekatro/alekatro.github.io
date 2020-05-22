@@ -440,6 +440,7 @@
 	.icon-album:before			{ content: '\E002'; }
 	.icon-book:before			{ content: '\E020'; }
 	.icon-comment:before		{ content: '\E034'; }
+	.icon-down:before			{ content: '\E03e'; }
 	.icon-file:before			{ content: '\E048'; }
 	.icon-folder:before			{ content: '\E04c'; }
 	.icon-info:before			{ content: '\E075'; }
