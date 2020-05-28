@@ -31,6 +31,7 @@
 		box-sizing: border-box;
 	}
 
+
 	body
 	{
 		/*
@@ -115,7 +116,13 @@
 		padding: 1.5em 0 0 0;
 		margin: 1.75em 0 0 0;
 	}
-	
+
+	p
+	{
+		margin-bottom: 0em;
+		margin-top: 0em;
+	}
+
 	sub
 	{
 		position: relative;
@@ -254,6 +261,18 @@
 		margin-bottom: 0;
 	}
 
+	.aboutme_paragraph
+	{
+		font-size: 14px;
+  		line-height: 1.5em;
+	}
+
+	.aboutme_title
+	{
+		font-weight: bold;
+		font-size: 20px;
+	}
+
 	.image
 	{
 		display: inline-block;
@@ -276,6 +295,12 @@
 	{
 		float: left;
 		margin: 0 2em 2em 0;
+	}
+
+	.image-right
+	{
+		float: right;
+		margin: 0 0 0 2em;
 	}
 	
 	.image-centered
@@ -450,6 +475,7 @@
 	.icon-notify:before			{ content: '\E097'; }
 	.icon-right:before			{ content: '\E112'; }
 	.icon-share:before			{ content: '\E118'; }
+	.icon-terminal:before		{ content: '\E16e'; }
 	.icon-tilemenu:before		{ content: '\E12a'; }
 	.icon-user:before			{ content: '\E137'; }
 	
